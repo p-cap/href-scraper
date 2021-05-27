@@ -10,6 +10,7 @@ Utilizing Scarpy framework in Python, I developed a simple/automated script that
 2. chmod 700 href_scraper
 3. Edit the ```href_spider.py``` file and adding the desired URL
    ```
+    ...
     class HrefSpider(scrapy.Spider):
        name = 'href_links'
     
