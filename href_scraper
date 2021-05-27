@@ -1,0 +1,20 @@
+#!/usr/bin/env zsh
+
+# Generate a virtual environment
+echo "Creating a virtual python environment"
+python3 -m venv href-scraper
+
+# activate virtual environment
+echo -e "\nActivating the virtual environment"
+source href-scraper/bin/activate
+
+# upgrade pip
+echo -e "\nUpgrading pip installer"
+pip install --upgrade pip
+
+# install scrapy inside the environment
+echo -e "\nInstalling Scrapy........"
+pip3 install scrapy
+
+# run the script 
+scrapy runspider href_spider.py -o href_links.json
