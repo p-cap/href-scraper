@@ -16,7 +16,7 @@ Utilizing Scarpy framework in Python, I developed a simple/automated script that
     
       # makes requests to the urls defined inside the given variable
     start_urls = [ 
-       >>> Insert URL here <<<
+       #>>> Insert URL here <<<#
     ]
     ...
    ```
